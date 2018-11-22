@@ -1,5 +1,5 @@
 var http = require('http'); // 서버용 모듈
-var server = http.createServer(); // 객체를 만들어 변수에 대입
+var server = http.createServer(); // 서버객체를 만들어 변수에 대입
 
 var port = 3000; // 해당 아이피주소가 사용할 수 있는 포트 
 
@@ -19,3 +19,4 @@ server.on('request', function(req,res) {
     res.write("반갑습니다.");
     res.end();
 })
+
