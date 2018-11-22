@@ -1,3 +1,4 @@
+
 var calc = {}; 
 
 calc.add = function(a, b) { // calc 객체의 add 변수에 함수 대입
@@ -16,4 +17,4 @@ calc.divide = function(a, b) {
     return a / b;
 }
 
-module.exports = calc; // 만들어진 객체를 requir로 요청해서 사용할 수 있다.
+module.exports = calc; // 만들어진 객체를 소스파일로 설정해 requir로 요청해서 사용할 수 있다.
